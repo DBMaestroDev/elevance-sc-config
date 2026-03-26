@@ -5,7 +5,26 @@
         "ProjectId": "686cbb75-417b-4df3-9678-fb71de373be9",
         "ProjectName": "OracleProject",
         "DBTypeName": "Oracle",
-        "Environments": null,
+        "Environments": [
+          {
+            "EnvironmentId": "d35ef8c6-8660-437c-ba6e-a0b86ba822aa",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "403027b1-9a11-4f2e-9a31-e761718d6a67",
+                "DatabaseAliasName": "DEMO_DEV",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/DBMaestroDev/elevance-sc-database",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
         "SourceControlPathType": 0,
         "Configuration": {
           "BuildMigrationScriptAutomatically": true,
@@ -28,7 +47,43 @@
       "UserData": [
         {
           "UserName": "nicolast-dbmaestro",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "403027b1-9a11-4f2e-9a31-e761718d6a67",
+              "DatabaseAliasName": "DEMO_DEV",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "nicolast-dbmaestro",
+                "Password": "DR21hLCfltpNt/+bjPmERu9Olk8NnTx8ak0HUFRSE+klRmIAzG9oN2Ensm2gidGj"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "403027b1-9a11-4f2e-9a31-e761718d6a67",
+              "DatabaseAliasName": "DEMO_DEV",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "elevance-test-v24",
+                    "port": "1521",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "DEMO_DEV",
+                    "userName": "PDBADMIN",
+                    "Password": "ORJ+a1uiEj08f0GDrbJhgQ=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null,
