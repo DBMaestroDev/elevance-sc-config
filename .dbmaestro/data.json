@@ -32,6 +32,17 @@
                   "RemoteBranchName": "main",
                   "LocalBranchName": "main"
                 }
+              },
+              {
+                "DatabaseId": "10066d01-0181-443c-a12c-f6a963dcda9f",
+                "DatabaseAliasName": "DEMO_DEV",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/DBMaestroDev/elevance-sc-database.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
               }
             ]
           }
@@ -58,7 +69,43 @@
       "UserData": [
         {
           "UserName": "nicolast-dbmaestro",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "10066d01-0181-443c-a12c-f6a963dcda9f",
+              "DatabaseAliasName": "DEMO_DEV",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "nicolast-dbmaestro",
+                "Password": "DR21hLCfltpNt/+bjPmERu9Olk8NnTx8ak0HUFRSE+klRmIAzG9oN2Ensm2gidGj"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "10066d01-0181-443c-a12c-f6a963dcda9f",
+              "DatabaseAliasName": "DEMO_DEV",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "Oracle",
+                    "host": "elevance-test-v24",
+                    "port": "1521",
+                    "identifierType": "SERVICE_NAME",
+                    "identifier": "DEMO_DEV",
+                    "userName": "PDBADMIN",
+                    "Password": "ORJ+a1uiEj08f0GDrbJhgQ=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null,
