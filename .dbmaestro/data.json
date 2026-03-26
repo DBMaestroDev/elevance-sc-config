@@ -10,19 +10,7 @@
             "EnvironmentId": "0125ddaa-e4b5-415c-b6a0-5642718d7495",
             "EnvironmentName": "Dev_Env_1",
             "EnvironmentType": "DEV",
-            "Databases": [
-              {
-                "DatabaseId": "36f16c45-476e-4782-81a9-8d7a108e6743",
-                "DatabaseAliasName": "DEMO_RS",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/DBMaestroDev/elevance-sc-database.git",
-                  "RemoteBranchName": "main",
-                  "LocalBranchName": "main"
-                }
-              }
-            ]
+            "Databases": []
           }
         ],
         "SourceControlPathType": 0,
@@ -47,18 +35,7 @@
       "UserData": [
         {
           "UserName": "nicolast-dbmaestro",
-          "DatabasesData": [
-            {
-              "DatabaseId": "36f16c45-476e-4782-81a9-8d7a108e6743",
-              "DatabaseAliasName": "DEMO_RS",
-              "DatabaseConnectionDetails": null,
-              "BranchesDatabaseConnectionDetails": null,
-              "RepositoryCredentials": {
-                "UserName": "nicolast-dbmaestro",
-                "Password": "DR21hLCfltpNt/+bjPmERu9Olk8NnTx8ak0HUFRSE+klRmIAzG9oN2Ensm2gidGj"
-              }
-            }
-          ]
+          "DatabasesData": []
         },
         {
           "UserName": "#ALL",
