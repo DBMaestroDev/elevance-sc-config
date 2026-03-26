@@ -12,17 +12,6 @@
             "EnvironmentType": "DEV",
             "Databases": [
               {
-                "DatabaseId": "197bb158-0274-4f57-8063-5b79fef52903",
-                "DatabaseAliasName": "DEMO_DEV",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/DBMaestroDev/elevance-sc-database",
-                  "RemoteBranchName": "main",
-                  "LocalBranchName": "main"
-                }
-              },
-              {
                 "DatabaseId": "93cad2a7-183d-452f-9cb6-b899bf4f7627",
                 "DatabaseAliasName": "DEMO_DEV",
                 "DatabaseConnectionDetails": null,
